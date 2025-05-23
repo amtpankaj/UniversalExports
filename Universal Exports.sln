@@ -5,13 +5,15 @@ VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Universal Exports", "Universal Exports\Universal Exports.csproj", "{1F0AE0DF-1D54-4ED1-8910-142CC02C3168}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroService", "MicroService", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServices", "MicroServices", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApi", "EmployeeApi\EmployeeApi.csproj", "{9480237B-7109-4A27-AA89-FF7D80F1F741}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.EmployeeApi", "EmployeeApi\Services.EmployeeApi.csproj", "{9480237B-7109-4A27-AA89-FF7D80F1F741}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{153F88CC-A25F-4B42-BF07-F03D36D2C4D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.AuthApi", "Services.AuthApi\Services.AuthApi.csproj", "{5B3C68FA-67DA-492E-8737-C7AF0B165A94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3C68FA-67DA-492E-8737-C7AF0B165A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3C68FA-67DA-492E-8737-C7AF0B165A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3C68FA-67DA-492E-8737-C7AF0B165A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3C68FA-67DA-492E-8737-C7AF0B165A94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9480237B-7109-4A27-AA89-FF7D80F1F741} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F} = {153F88CC-A25F-4B42-BF07-F03D36D2C4D8}
+		{5B3C68FA-67DA-492E-8737-C7AF0B165A94} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCC99CB2-25FC-4E56-B0B5-F936C3E51469}

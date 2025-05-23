@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Universal Exports\\EmployeeApi\\Services.EmployeeApi.csproj",
-      "projectName": "Services.EmployeeApi",
-      "projectPath": "D:\\Projects\\Universal Exports\\EmployeeApi\\Services.EmployeeApi.csproj",
+      "projectUniqueName": "D:\\Projects\\Universal Exports\\Services.AuthApi\\Services.AuthApi.csproj",
+      "projectName": "Services.AuthApi",
+      "projectPath": "D:\\Projects\\Universal Exports\\Services.AuthApi\\Services.AuthApi.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Universal Exports\\EmployeeApi\\obj\\",
+      "outputPath": "D:\\Projects\\Universal Exports\\Services.AuthApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
