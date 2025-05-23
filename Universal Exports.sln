@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroService", "MicroServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApi", "EmployeeApi\EmployeeApi.csproj", "{9480237B-7109-4A27-AA89-FF7D80F1F741}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{153F88CC-A25F-4B42-BF07-F03D36D2C4D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{9480237B-7109-4A27-AA89-FF7D80F1F741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9480237B-7109-4A27-AA89-FF7D80F1F741}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9480237B-7109-4A27-AA89-FF7D80F1F741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9480237B-7109-4A27-AA89-FF7D80F1F741} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F8574FA9-1DC8-45A0-B17D-C6F534DF8E1F} = {153F88CC-A25F-4B42-BF07-F03D36D2C4D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCC99CB2-25FC-4E56-B0B5-F936C3E51469}
